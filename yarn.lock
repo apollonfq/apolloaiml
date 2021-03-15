@@ -9742,6 +9742,14 @@
     "braces" "^3.0.1"
     "picomatch" "^2.0.5"
 
+"microphone-stream@^5.3.1":
+  "integrity" "sha512-Q0zqZC4GpLVatoT0J7bocVDt2IWRfciF0B32XvAvWCgLX3R7s6VnKZ1mbTefSUpmZ8vcdA2Nz2sFCqAQSGyh6A=="
+  "resolved" "https://registry.npmjs.org/microphone-stream/-/microphone-stream-5.3.1.tgz"
+  "version" "5.3.1"
+  dependencies:
+    "buffer-from" "^1.1.1"
+    "readable-stream" "^3.6.0"
+
 "miller-rabin@^4.0.0":
   "integrity" "sha512-115fLhvZVqWwHPbClyntxEVfVDfl9DLLTuJvq3g2O/Oxi8AiNouAHvDSzHS0viUJc+V5vm3eq91Xwqn9dp4jRA=="
   "resolved" "https://registry.yarnpkg.com/miller-rabin/-/miller-rabin-4.0.1.tgz"
@@ -12017,7 +12025,7 @@
 
 "readable-stream@^3.6.0":
   "integrity" "sha512-BViHy7LKeTz4oNnkcLJ+lVSL6vpiFeX6/d3oSH8zCW7UxP2onchk+vTGB143xuFjHS3deTgkKoXXymXqymiIdA=="
-  "resolved" "https://registry.yarnpkg.com/readable-stream/-/readable-stream-3.6.0.tgz"
+  "resolved" "https://registry.npmjs.org/readable-stream/-/readable-stream-3.6.0.tgz"
   "version" "3.6.0"
   dependencies:
     "inherits" "^2.0.3"
