@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-apolloaiml-dev-121134-authRole",
+      "UnauthRoleArn": "arn:aws:iam::954693777957:role/amplify-apolloaiml-dev-121134-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::954693777957:role/amplify-apolloaiml-dev-121134-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-apolloaiml-dev-121134-deployment",
+      "UnauthRoleName": "amplify-apolloaiml-dev-121134-unauthRole",
+      "StackName": "amplify-apolloaiml-dev-121134",
+      "StackId": "arn:aws:cloudformation:us-east-1:954693777957:stack/amplify-apolloaiml-dev-121134/416cfd20-83f5-11eb-967f-0a60596032c9",
+      "AmplifyAppId": "d39iqtf78o0bs7"
+    },
+    "categories": {
+      "auth": {
+        "apolloaiml31634150": {}
+      }
+    }
+  }
+}
