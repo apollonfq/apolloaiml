@@ -61,7 +61,7 @@ function TextTranslation() {
 	              <div class="input-group-text">Input</div>
 	           </div>
 	           <select id="selectSourceLanguage" className="custom-select" value={sourceLanguage} onChange={setLanguage}>
-	             <option selected value="auto">Autodetect (Powered by Amazon Comprehend)</option>
+	                   <option value="auto">Autodetect (Powered by Amazon Comprehend)</option>
                      <option value="af">Afrikaans</option>
                      <option value="sq">Albanian</option>
                      <option value="am">Amharic</option>
@@ -70,14 +70,14 @@ function TextTranslation() {
                      <option value="bn">Bengali</option>
                      <option value="bs">Bosnian</option>
                      <option value="bg">Bulgarian</option>
-	             <option value="zh">Chinese (Simplified)</option>
+	                   <option value="zh">Chinese (Simplified)</option>
                      <option value="zh-TW">Chinese (Traditional)</option>
                      <option value="hr">Croatian</option>
                      <option value="cs">Czech</option>
                      <option value="da">Danish</option>
                      <option value="fa-AF">Dari</option>
                      <option value="nl">Dutch</option>
-                     <option value="en">English</option>
+                     <option selected value="en">English</option>
                      <option value="et">Estonian</option>
                      <option value="fi">Finnish</option>
                      <option value="fr">French</option>
@@ -133,7 +133,7 @@ function TextTranslation() {
                      <option value="bn">Bengali</option>
                      <option value="bs">Bosnian</option>
                      <option value="bg">Bulgarian</option>
-                     <option value="zh">Chinese (Simplified)</option>
+                     <option selected value="zh">Chinese (Simplified)</option>
                      <option value="zh-TW">Chinese (Traditional)</option>
                      <option value="hr">Croatian</option>
                      <option value="cs">Czech</option>
