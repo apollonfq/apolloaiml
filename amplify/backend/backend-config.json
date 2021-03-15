@@ -12,6 +12,17 @@
       "providerPlugin": "awscloudformation",
       "service": "Translate",
       "convertType": "translateText"
+    },
+    "speechGenerator9f3da12e": {
+      "providerPlugin": "awscloudformation",
+      "service": "Polly",
+      "convertType": "speechGenerator"
+    }
+  },
+  "storage": {
+    "s31750de00": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation"
     }
   }
 }
