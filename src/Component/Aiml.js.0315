@@ -9,13 +9,10 @@ import awsconfig from '../aws-exports';
 Amplify.configure(awsconfig);
 Amplify.addPluggable(new AmazonAIPredictionsProvider());
 
-const [sourceLanguage, setSourceLanguage] = useState();
-const [textToTranslate, setTextToTranslate] = useState("write to translate");
-
 function TextTranslation() {
   const [response, setResponse] = useState("Input some text and click enter to test")
-  //const [textToTranslate, setTextToTranslate] = useState("write to translate");
-  //const [sourceLanguage, setSourceLanguage] = useState();
+  const [textToTranslate, setTextToTranslate] = useState("write to translate");
+  const [sourceLanguage, setSourceLanguage] = useState();
   const [targetTextLanguage, setTargetTextLanguage] = useState();
 
   function translate() {
@@ -293,7 +290,7 @@ function SpeechToText(props) {
         },
         // language: "en-US", // other options are "en-GB", "fr-FR", "fr-CA", "es-US"
       },
-    }).then(({ transcription: { fullText } }) => {setResponse(fullText);textToTranslate = fullText;})
+    }).then(({ transcription: { fullText } }) => setResponse(fullText))
       .catch(err => setResponse(JSON.stringify(err, null, 2)))
   }
 
