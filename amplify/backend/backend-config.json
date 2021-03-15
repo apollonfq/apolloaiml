@@ -22,6 +22,12 @@
       "providerPlugin": "awscloudformation",
       "service": "Transcribe",
       "convertType": "transcription"
+    },
+    "identifyLabelsb5e6ea22": {
+      "providerPlugin": "awscloudformation",
+      "service": "Rekognition",
+      "dependsOn": [],
+      "identifyType": "identifyLabels"
     }
   },
   "storage": {
